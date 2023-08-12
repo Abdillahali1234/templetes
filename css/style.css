@@ -87,9 +87,11 @@
   visibility: hidden;
   box-shadow: (126, 136, 160, 0.25) 0px 0px 30px;
   transition: all 0.2s ease 0s;
+  transform: translateY(20px);
 }
 .nav_bar ul li:hover .dropdown-menu {
   visibility: visible;
+  transform: translateY(0);
 }
 .nav_bar ul li ul,
 .nav_bar ul li ul li a {
@@ -119,9 +121,13 @@
   transition: all 0.3s ease 0s;
   border-radius: 5px;
   box-shadow: rgba(126, 136, 160, 0.25) 0px 0px 30px;
+  transform: translateX(20px);
+
 }
 .dropdown-menu ul li:hover .dropdown-menu1 {
   visibility: visible;
+  transform: translateX(0);
+
 }
 .dropdown-menu1 ul {
   opacity: 0;
@@ -826,34 +832,33 @@ footer {
   flex-direction: column;
   gap: 5px;
 }
-.copy_right_website .description span{
-  color:#bfbfbf;
+.copy_right_website .description span {
+  color: #bfbfbf;
   font-size: 14px;
 }
-.copy_right_website .description span a{
-  color: rgb(143,203,160);
+.copy_right_website .description span a {
+  color: rgb(143, 203, 160);
   text-decoration: none;
 }
-.box2_scoial a{
+.box2_scoial a {
   text-decoration: none;
   margin-left: 8px;
   /* padding: 15px; */
   /* border-radius: 50%; */
-
 }
-.box2_scoial a i{
+.box2_scoial a i {
   font-size: 18px;
   line-height: 18px;
   color: white;
   padding: 10px;
-  background-color: rgb(94,207,128);
+  background-color: rgb(94, 207, 128);
   border-radius: 50%;
-  transition: all .2s;
-  -webkit-transition: all .2s;
-  -moz-transition: all .2s;
-  -ms-transition: all .2s;
-  -o-transition: all .2s;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
 }
-.box2_scoial a i:hover{
-  background-color:rgb(10, 179, 61) ;
+.box2_scoial a i:hover {
+  background-color: rgb(10, 179, 61);
 }
